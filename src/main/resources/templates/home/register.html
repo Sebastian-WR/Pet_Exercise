@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="icon" href="23032573.jpg">
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: lightpink;
+        }
+        #center{
+            text-align: center;
+        }
+    </style>
+    <style>
+        textRegister{
+            text-align: center;
+            font-size: 35px;
+
+
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">Congratulations on registering your best friend!</h1>
+<p style="text-align: center; font-size: 25px"><b><span th:text="${pet_name}"/> the <span th:text="${pet_type}"/></b></p>
+<div id="center">
+    <img src="original.jpg" alt="Pets" width="1000" height="600">
+</div>
+
+</body>
+</html>
